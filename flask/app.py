@@ -23,7 +23,7 @@ socketio = SocketIO(app, async_mode='eventlet')
 DATABASE_HOST = 'rds-test-db-instance-1.ch6oycw4ehe0.ap-northeast-2.rds.amazonaws.com'
 DATABASE_USER = 'admin'
 DATABASE_PASSWORD = 'VMware1!'
-DATABASE_NAME = 'my_database'
+DATABASE_NAME = 'mydatabase'
 
 # S3 configuration
 # S3 configuration - 수정된 부분
