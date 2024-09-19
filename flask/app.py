@@ -17,7 +17,7 @@ app.secret_key = 'your_secret_key_here'
 app.config['UPLOAD_FOLDER'] = 'static/uploads'
 
 # Initialize Flask-SocketIO with eventlet as the async mode
-socketio = SocketIO(app, async_mode='eventlet')
+socketio = SocketIO(app, async_mode='eventlet', cors_allowed_origins="*")
 
 # MySQL Aurora database configuration
 DATABASE_HOST = 'aurora-cluster-instance-1.ch6oycw4ehe0.ap-northeast-2.rds.amazonaws.com'
